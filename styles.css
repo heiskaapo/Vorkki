@@ -1,0 +1,45 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Set background colors based on the photo */
+.section1 {
+    background-color: #f5c542; /* Yellow */
+    height: 50vh; /* Half of the viewport height */
+}
+
+.section2 {
+    background-color: #3e3e3e; /* Dark gray */
+    height: 50vh;
+    width: 100%;
+    display: flex;
+}
+/* Left section (WebView 1) */
+.left {
+    flex: 50%; /* Takes up half of the container */
+    background-color: #3e3e3e; /* Light gray background */
+}
+
+/* Right section (WebView 2) */
+.right {
+    flex: 50%;
+    background-color: #3e3e3e; /* Dark gray background */
+}
+
+img {
+    display: block;
+    width: 50vw;
+    min-width: 200px;
+    margin: 0 auto; /* Center horizontally */
+}
+
+
